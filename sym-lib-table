@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "at820") (type "KiCad") (uri "${KIPRJMOD}/at820.kicad_sym") (options "") (descr ""))
+	(lib (name "audio") (type "KiCad") (uri "${KIPRJMOD}/audio.kicad_sym") (options "") (descr ""))
+)
