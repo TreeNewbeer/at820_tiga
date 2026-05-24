@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(md|MD|txt|TXT\\)$\")",
+      "Bash(python3:*)",
+      "Bash(file *)",
+      "Bash(pip install:*)",
+      "Bash(python -c ':*)",
+      "Bash(pip3 install:*)",
+      "Bash(py -m pip install PyMuPDF)",
+      "Bash(python -m pip install PyMuPDF)",
+      "WebFetch(domain:www.wch.cn)"
+    ]
+  }
+}
