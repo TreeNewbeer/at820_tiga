@@ -5406,7 +5406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0332ce03-cd71-4994-b5a8-bf286ee84425")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 30.48 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5470,7 +5470,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5488,7 +5488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "073948d0-89a3-40e5-a342-ad8f49d84165")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR080"
 			(at 240.03 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5548,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR068")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5566,7 +5566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0819e8a2-8c78-46a2-9ea6-30e9e17c1b89")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR059"
 			(at 83.82 127 0)
 			(hide yes)
 			(show_name no)
@@ -5626,7 +5626,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR046")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5644,7 +5644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a63a55a-2ffc-41a9-9b56-f7ffd1a5a833")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 35.56 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5654,7 +5654,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "UART"
 			(at 35.56 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5751,7 +5751,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5769,7 +5769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d255afe-a2a4-4435-bdb0-4ddc5fc5d7e4")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 36.83 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5779,7 +5779,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "USB"
 			(at 36.83 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5876,7 +5876,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5894,7 +5894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e3d5e0f-b23b-4c2d-a87e-3af5dfb2fdd3")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR051"
 			(at 57.15 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -5954,7 +5954,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR089")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5971,7 +5971,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1474b1bd-f7e9-4973-b204-5485e264c886")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 54.61 33.655 0)
 			(hide yes)
 			(show_name no)
@@ -6031,7 +6031,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -6048,7 +6048,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc5101f-735e-45d6-ae13-7f02b3a77ba1")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 86.36 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6112,7 +6112,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -6130,7 +6130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210b58fe-76bd-4676-972e-4bd5f0f589be")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR072"
 			(at 165.1 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6190,7 +6190,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR062")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6207,7 +6207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "276a031c-79a6-4857-aaa2-91c05006f2da")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 95.25 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6271,7 +6271,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6447,7 +6447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35bc0e51-a78a-49b3-9241-6e3b8c85e288")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 243.84 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6511,7 +6511,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6529,7 +6529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4014b3d7-5444-4ee7-aeb5-4867a8b6c54d")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 31.75 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6593,7 +6593,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6611,7 +6611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43b7cd98-e837-4353-9e8f-bebb4afa71bb")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR065"
 			(at 133.35 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -6671,7 +6671,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR055")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6768,7 +6768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47e7e310-6709-4c4d-a308-ab34241d9294")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 90.17 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6829,7 +6829,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -6847,7 +6847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49071369-b5be-49d3-b827-acf6acea6fbc")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 222.25 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6911,7 +6911,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7011,7 +7011,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "531e027c-b1f2-4b66-b7a8-864edac393f6")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR073"
 			(at 166.37 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7072,7 +7072,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR063")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -7168,7 +7168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "545a160c-2e6b-4d0a-8454-8ba26bf97a54")
-		(property "Reference" "R14"
+		(property "Reference" "R15"
 			(at 99.06 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7232,7 +7232,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R14")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -7250,7 +7250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bca1889-d8af-4e26-9a4f-d7d535f3a90d")
-		(property "Reference" "C17"
+		(property "Reference" "C18"
 			(at 157.48 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +7314,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C17")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7331,7 +7331,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cf8b824-ef93-40cb-ab5e-06455b52b5a6")
-		(property "Reference" "D9"
+		(property "Reference" "D4"
 			(at 58.166 161.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +7395,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D9")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -7413,7 +7413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6f8f88-aa67-48c8-b89b-78ad0d14c175")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR062"
 			(at 96.52 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -7473,7 +7473,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR053")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -7490,7 +7490,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6274efaf-1b6e-4793-bf33-c3c17de8f80a")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR070"
 			(at 149.86 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -7550,7 +7550,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR060")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -7567,7 +7567,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "650189ee-d811-471c-a192-f603ca28f00a")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 60.452 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7631,7 +7631,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -7649,7 +7649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6661f051-4108-49dc-a6b0-2f00d11d3ef6")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 210.82 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7713,7 +7713,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7731,7 +7731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66e9c328-96f1-42f4-a0c3-18868d89ed5a")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 145.415 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +7796,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -7814,7 +7814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69b9bc8d-cc65-4350-9e49-aad499761086")
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 182.88 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7878,7 +7878,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -7896,7 +7896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a6826ac-d99c-449f-a7db-6c0aeeaa2b5c")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR078"
 			(at 220.98 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -7957,7 +7957,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR081")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -7975,7 +7975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c29c1f0-935e-4f08-b22c-74f5edf7afd2")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR079"
 			(at 220.98 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8036,7 +8036,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR082")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8053,7 +8053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dd1ae98-b29b-4506-ab33-c29b9f8496c1")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR071"
 			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8113,7 +8113,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR061")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -8131,7 +8131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ec85e2e-3a96-49a7-a4ee-afc09806c3a4")
-		(property "Reference" "D1"
+		(property "Reference" "D10"
 			(at 91.7575 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +8193,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D1")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -8211,7 +8211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f8251e3-c2f7-45a4-abf4-193b81dc66cb")
-		(property "Reference" "D2"
+		(property "Reference" "D9"
 			(at 87.9475 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8273,7 +8273,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D2")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -8291,7 +8291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71908b6a-7e58-4dac-af6d-2de5e1bc5c9d")
-		(property "Reference" "C19"
+		(property "Reference" "C20"
 			(at 170.18 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8355,7 +8355,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8373,7 +8373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74156f43-c636-4914-8405-0fd1d2583e64")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR069"
 			(at 153.67 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8433,7 +8433,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR059")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -8450,7 +8450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76b6b1d1-96a5-41fc-9ad4-36f2117438f2")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 60.96 37.592 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8514,7 +8514,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8532,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7960cb28-516b-4296-b972-af4ec7f21484")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR050"
 			(at 54.61 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8592,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR086")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8610,7 +8610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cf59b11-889a-4267-941d-ff69c8b0dba5")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR064"
 			(at 116.84 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +8670,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR054")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -8688,7 +8688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80e4f0a7-d23a-4129-b95e-91eed19c4cf4")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR061"
 			(at 86.36 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -8748,7 +8748,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR050")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8766,7 +8766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825ae4d9-0355-477e-9025-18e747428603")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 130.81 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8830,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8848,7 +8848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8652abda-096e-4b6f-bff5-4148dbc48b6f")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 256.54 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8912,7 +8912,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -8929,7 +8929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8717b6db-a30d-414f-b593-2944b7a00eed")
-		(property "Reference" "C18"
+		(property "Reference" "C19"
 			(at 160.782 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8993,7 +8993,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C18")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -9010,7 +9010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8861b3c9-9b54-4404-b5e1-c0fbfea3dc4a")
-		(property "Reference" "D3"
+		(property "Reference" "D11"
 			(at 100.33 61.2774 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9085,7 +9085,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D3")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -9102,7 +9102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bd81ca3-5842-474d-988e-076b0fdc39d9")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR067"
 			(at 151.13 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9162,7 +9162,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR057")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9180,7 +9180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bd9155a-9c1c-44c0-965c-406c4da6cfb8")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 259.08 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9241,7 +9241,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9259,7 +9259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8bd12e-7caf-4d4c-bf6f-783acb0f32c6")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR048"
 			(at 35.56 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9319,7 +9319,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR044")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -9336,7 +9336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8e1315ae-c3e3-43ae-9148-1cacd0c4efab")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 78.74 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9400,7 +9400,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9418,7 +9418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "969272fe-a377-46e0-bcd1-e0aa48adcde4")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR056"
 			(at 76.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9479,7 +9479,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR085")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9497,7 +9497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a23a810-329d-4fb9-9d63-231c06fc540a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 59.69 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -9558,7 +9558,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -9655,7 +9655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c54fc09-f67a-4ac1-9eab-43420edf37df")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 74.93 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9717,7 +9717,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9735,7 +9735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5cafb50-325a-4265-a56c-cf4bcbac221b")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR057"
 			(at 80.01 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9795,7 +9795,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR049")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -9813,7 +9813,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad76e053-4026-4197-bed8-32d1f007e477")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR052"
 			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -9873,7 +9873,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR087")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -9891,7 +9891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af9a7814-0b77-45ee-aab3-62e374f691aa")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR075"
 			(at 194.31 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9951,7 +9951,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR065")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -9969,7 +9969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b68241f7-48b7-4860-95d1-02aa181d5d56")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 54.61 125.095 0)
 			(hide yes)
 			(show_name no)
@@ -10029,7 +10029,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -10046,7 +10046,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b748e621-586d-4c33-85b0-3582c8d1eb49")
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 171.196 112.014 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +10110,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10127,7 +10127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8004a0c-c238-465d-9a99-e402c1ca98dc")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 55.626 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10191,7 +10191,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D6")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -10209,7 +10209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8f64845-5420-41d1-8d33-e3100242de8e")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 36.83 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -10269,7 +10269,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -10287,7 +10287,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92f4921-b1ec-46bd-94c7-e6f5ac6c23f8")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR063"
 			(at 102.87 127 0)
 			(hide yes)
 			(show_name no)
@@ -10347,7 +10347,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR052")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -10365,7 +10365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdaab3c2-583d-4661-82f3-5cd4d72b0387")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 233.68 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10426,7 +10426,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -10444,7 +10444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1132083-b581-47aa-97bc-a9e7dd4dd601")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR066"
 			(at 149.86 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -10504,7 +10504,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR056")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10521,7 +10521,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6a2206a-08a9-489a-b80c-e8b57682a915")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 88.9 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10585,7 +10585,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10603,7 +10603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d121aa63-e52a-4765-91d9-09d61c9e1fec")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR053"
 			(at 62.23 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10663,7 +10663,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR090")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -10759,7 +10759,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35663d4-5b63-462a-9962-f3ed93788289")
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 198.12 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10823,7 +10823,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -10841,7 +10841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b62df4-38c5-4c49-b31f-3827154df611")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR077"
 			(at 218.44 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -10901,7 +10901,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR067")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -10918,7 +10918,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbcb9f84-521d-4e23-b3a3-d7f6c89ae2f5")
-		(property "Reference" "C15"
+		(property "Reference" "C16"
 			(at 110.49 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10982,7 +10982,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "C15")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11000,7 +11000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd56e525-fed6-4c2a-95a3-8cd9234c54ef")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR074"
 			(at 179.07 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11060,7 +11060,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR064")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -11077,7 +11077,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddd0c5da-5b76-4e3e-a842-23e7919f2ae0")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR081"
 			(at 246.38 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11138,7 +11138,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR069")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -11156,7 +11156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3ea976-46c6-441f-8ef6-92936b5ad8b0")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR060"
 			(at 83.82 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11216,7 +11216,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR047")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -11233,7 +11233,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ebe6818b-2512-4ecd-9b91-8afa0c8d0081")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR068"
 			(at 153.67 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11294,7 +11294,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR058")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -11312,7 +11312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec8c938b-eea4-4ace-a2ac-fab26b364ecd")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR076"
 			(at 207.01 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11372,7 +11372,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR066")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -11389,7 +11389,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef8bf14f-01ba-40b7-b0d5-e89bfd7dc6f9")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 60.96 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11453,7 +11453,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -11470,7 +11470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4891082-e4e5-4e6a-b0bb-ebb4d6e6ab97")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 63.246 161.544 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11534,7 +11534,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11630,7 +11630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8bf305-e27d-46b3-bfac-f6618d161ba0")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR055"
 			(at 74.93 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -11691,7 +11691,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/bdb32295-0012-48b2-b3aa-c4e9dc671aef"
-					(reference "#PWR088")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

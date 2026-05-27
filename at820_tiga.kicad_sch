@@ -1974,6 +1974,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -4971,12 +5172,6 @@
 		(uuid "4f82939b-bcaa-42e7-8fb4-9ecf9b2c6672")
 	)
 	(junction
-		(at 88.9 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5152f551-8be7-4935-b086-d1f7851a3920")
-	)
-	(junction
 		(at 208.28 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5011,6 +5206,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97653c30-5dfd-4406-9eeb-bdbf286d557c")
+	)
+	(junction
+		(at 88.9 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c7e5ff9-4ecc-468b-bdd7-6c1f3e0d9ce5")
 	)
 	(junction
 		(at 237.49 137.16)
@@ -5085,6 +5286,16 @@
 	(no_connect
 		(at 179.07 48.26)
 		(uuid "9ac5b0a6-27dd-401c-8371-fe9960a07753")
+	)
+	(wire
+		(pts
+			(xy 90.17 50.8) (xy 90.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "001a00a2-d7b9-4db7-a198-dceda8655dea")
 	)
 	(wire
 		(pts
@@ -5178,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 114.3 67.31)
+			(xy 115.57 43.18) (xy 115.57 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +5419,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 76.2) (xy 107.95 76.2)
+			(xy 104.14 83.82) (xy 107.95 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5328,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 81.28) (xy 107.95 81.28)
+			(xy 104.14 88.9) (xy 107.95 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5445,6 +5656,16 @@
 			(type default)
 		)
 		(uuid "28fde6a4-66c9-410a-9751-7d8bd0fd4b19")
+	)
+	(wire
+		(pts
+			(xy 113.03 52.07) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c8455f-095b-4059-885f-9f820591aeae")
 	)
 	(wire
 		(pts
@@ -5565,6 +5786,16 @@
 			(type default)
 		)
 		(uuid "3610de55-ad4f-4a6d-b7f2-71ede5e49b12")
+	)
+	(wire
+		(pts
+			(xy 100.33 52.07) (xy 102.87 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36431a3a-a8ce-4a4a-ae46-da3e4943c008")
 	)
 	(wire
 		(pts
@@ -5765,6 +5996,16 @@
 			(type default)
 		)
 		(uuid "517848e6-3f44-40b6-9bea-a7ef778580c8")
+	)
+	(wire
+		(pts
+			(xy 101.6 21.59) (xy 104.14 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518661fe-42a0-45a0-b923-f12a74120723")
 	)
 	(wire
 		(pts
@@ -6228,7 +6469,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 88.9 78.74)
+			(xy 88.9 74.93) (xy 88.9 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6318,6 +6559,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 21.59) (xy 93.98 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921e6e00-dd1b-483e-91b2-98b83b5c6beb")
+	)
+	(wire
+		(pts
 			(xy 144.78 157.48) (xy 158.75 157.48)
 		)
 		(stroke
@@ -6338,7 +6589,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 78.74) (xy 93.98 78.74)
+			(xy 88.9 86.36) (xy 93.98 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6408,7 +6659,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 110.49 53.34)
+			(xy 96.52 60.96) (xy 113.03 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6455,6 +6706,16 @@
 			(type default)
 		)
 		(uuid "a18906e0-88e2-42a0-a0cf-63f72a7c530e")
+	)
+	(wire
+		(pts
+			(xy 110.49 52.07) (xy 113.03 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c33dd7-b1d9-406f-a587-fb5fcd197f54")
 	)
 	(wire
 		(pts
@@ -6528,6 +6789,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 21.59) (xy 114.3 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e4c6d4-158f-420e-9fbf-640d4069b582")
+	)
+	(wire
+		(pts
 			(xy 156.21 27.94) (xy 166.37 27.94)
 		)
 		(stroke
@@ -6548,13 +6819,23 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 67.31) (xy 114.3 67.31)
+			(xy 88.9 74.93) (xy 115.57 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab4e6dce-680b-4d52-ab36-22584d676fa6")
+	)
+	(wire
+		(pts
+			(xy 90.17 52.07) (xy 92.71 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac5311ea-2b29-4d10-b16a-70dba3cc0783")
 	)
 	(wire
 		(pts
@@ -6615,6 +6896,16 @@
 			(type default)
 		)
 		(uuid "b17c9eba-3b13-49c2-a60a-48b7cf959721")
+	)
+	(wire
+		(pts
+			(xy 90.17 20.32) (xy 90.17 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19290d8-a23d-4123-abdf-e705a8eb9419")
 	)
 	(wire
 		(pts
@@ -6688,7 +6979,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 63.5) (xy 88.9 67.31)
+			(xy 88.9 71.12) (xy 88.9 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6745,6 +7036,16 @@
 			(type default)
 		)
 		(uuid "bfe82770-c11f-43bb-b0b2-5ac02e7e9baf")
+	)
+	(wire
+		(pts
+			(xy 114.3 21.59) (xy 114.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18203e3-466b-439b-86c2-37ac28bba229")
 	)
 	(wire
 		(pts
@@ -6818,7 +7119,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 43.18) (xy 114.3 43.18)
+			(xy 88.9 43.18) (xy 115.57 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6868,7 +7169,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 55.88) (xy 81.28 55.88)
+			(xy 63.5 63.5) (xy 81.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -6968,7 +7269,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 30.48) (xy 110.49 30.48)
+			(xy 96.52 30.48) (xy 114.3 30.48)
 		)
 		(stroke
 			(width 0)
@@ -7068,7 +7369,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 58.42) (xy 110.49 58.42)
+			(xy 96.52 66.04) (xy 110.49 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7387,7 +7688,7 @@
 		(uuid "35a3d708-dd33-4de0-a93e-5042e98d9a07")
 	)
 	(label "AT_SYS_UART_TXD"
-		(at 63.5 55.88 0)
+		(at 63.5 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7767,7 +8068,7 @@
 		(uuid "bf72a281-b79b-43b1-89c8-cad4d62b7e3c")
 	)
 	(label "USB_D+"
-		(at 110.49 58.42 180)
+		(at 110.49 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7787,7 +8088,7 @@
 		(uuid "c16917dd-8863-4234-a71e-bd4f949c38c1")
 	)
 	(label "CH_UART_RXD"
-		(at 110.49 53.34 180)
+		(at 110.49 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7918,7 +8219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "027d703c-1b6b-4e89-acb5-b0defcf7b3d0")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR046"
 			(at 270.51 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -7978,7 +8279,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR043")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -8078,7 +8379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08411563-4391-48d3-8290-8f8dd49e163b")
-		(property "Reference" "J5"
+		(property "Reference" "J6"
 			(at 230.505 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8146,7 +8447,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J5")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -8163,7 +8464,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "089a3d0b-3a4e-4e78-bc48-3ed0e2c9ceb4")
-		(property "Reference" "C11"
+		(property "Reference" "C8"
 			(at 174.244 151.384 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +8528,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C11")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8244,7 +8545,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "114a1661-2c04-450a-a2ff-88b7712709c9")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 146.05 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -8304,7 +8605,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -8322,7 +8623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1532a8d0-7b4d-42f2-88df-ebbddb44ae50")
-		(property "Reference" "SW6"
+		(property "Reference" "SW4"
 			(at 261.62 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,7 +8633,7 @@
 				)
 			)
 		)
-		(property "Value" "Boot Button"
+		(property "Value" "Boot"
 			(at 261.62 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8384,7 +8685,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "SW6")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -8402,7 +8703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15662bf7-5702-41e3-be72-372fa523bc11")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 168.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8462,7 +8763,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8479,7 +8780,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1752ea70-0510-413a-aec2-ea984a5a9562")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 88.9 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -8539,7 +8840,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8557,7 +8858,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d98143c-40a1-4923-bfeb-257cd9ca670d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR047"
 			(at 270.51 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -8617,7 +8918,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR042")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -8794,7 +9095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21e6693e-e235-45d9-804b-1ed92e5ce94e")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR045"
 			(at 250.19 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8854,7 +9155,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR080")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8872,7 +9173,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23121281-2be2-4125-9390-12f0e27c310a")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 230.505 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8882,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Value" "uart0"
+		(property "Value" "UART0"
 			(at 230.505 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8940,7 +9241,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8958,7 +9259,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "277bea9a-0674-4ac1-a94a-96f3e5f12ae3")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 88.9 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +9347,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -9063,7 +9364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28153d04-08ae-4acf-b2ad-e2ed4594381d")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 177.546 18.796 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9127,7 +9428,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9145,7 +9446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31a63670-38b9-44e0-a430-2e54a61f1b70")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR042"
 			(at 234.95 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -9206,7 +9507,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR037")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -9224,7 +9525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3edef3b3-6fa0-4ddf-a783-3db9e016d635")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 154.94 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9285,7 +9586,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -9303,7 +9604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42dae0ab-3d49-4287-96fc-0188b94a9700")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 205.74 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -9363,7 +9664,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9381,7 +9682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44c390ed-f577-4acf-810c-807e0f89c674")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 88.9 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -9442,7 +9743,85 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR016")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 90.17 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "480cac38-1f85-4da6-aff8-14e17de87e67")
+		(property "Reference" "#PWR015"
+			(at 90.17 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 90.17 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 90.17 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69257b43-0a53-4ccf-b2cb-4338e15072da")
+		)
+		(instances
+			(project "at820_tiga"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9541,7 +9920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a2b6099-a09c-4a87-866c-b949e1497fe7")
-		(property "Reference" "C4"
+		(property "Reference" "C14"
 			(at 261.62 37.592 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9603,7 +9982,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C4")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9620,7 +9999,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4de01bfb-0e80-4e73-9288-08f443f3b207")
-		(property "Reference" "C8"
+		(property "Reference" "C5"
 			(at 162.814 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +10063,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C8")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -9702,7 +10081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5099b45e-0df4-437d-b1aa-5e36f84fe34a")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 201.93 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9763,7 +10142,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -9781,7 +10160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5150f094-a830-480b-b3fb-5f11b9aecf83")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 144.78 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9842,7 +10221,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9850,7 +10229,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 107.95 81.28 270)
+		(at 107.95 88.9 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9860,8 +10239,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "537d8716-2723-42db-ae73-1ca0011045a5")
-		(property "Reference" "#PWR083"
-			(at 104.14 81.28 0)
+		(property "Reference" "#PWR018"
+			(at 104.14 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9872,7 +10251,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 111.76 81.2799 90)
+			(at 111.76 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9883,7 +10262,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 81.28 0)
+			(at 107.95 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9894,7 +10273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 81.28 0)
+			(at 107.95 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9905,7 +10284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 107.95 81.28 0)
+			(at 107.95 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +10300,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR083")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9939,7 +10318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58eb8f4e-8a52-4ab3-9234-e89dc0f77930")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 154.94 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10000,7 +10379,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -10018,7 +10397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb3afd4-282f-407f-b300-9b0b34cdb024")
-		(property "Reference" "J13"
+		(property "Reference" "J1"
 			(at 43.815 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10080,7 +10459,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J13")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -10097,7 +10476,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "602785ec-b8d3-4ff0-9f16-776fb3a1b6dc")
-		(property "Reference" "C36"
+		(property "Reference" "C15"
 			(at 261.62 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10159,7 +10538,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C36")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -10258,7 +10637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "666df101-a562-4903-a59f-298d37e0b6a5")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 198.755 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10268,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "I2C0"
 			(at 198.755 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10326,7 +10705,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -10344,7 +10723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b535a1-81b5-42fb-9214-91ef6567476a")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR030"
 			(at 177.8 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -10405,7 +10784,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR028")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -10422,7 +10801,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6795d711-d90c-4ad6-bab1-8c075c178dc6")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 161.29 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10486,7 +10865,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10504,7 +10883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cef370b-c9a4-4aa9-a82d-38cea8d837a0")
-		(property "Reference" "R4"
+		(property "Reference" "R7"
 			(at 231.14 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10568,7 +10947,98 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "R4")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 96.52 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e7c585a-2464-49e5-83ee-dd81a20c5932")
+		(property "Reference" "D1"
+			(at 94.9325 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 94.9325 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62f17b14-da75-48ec-9b43-93fd0118919f")
+		)
+		(pin "2"
+			(uuid "aca44fa6-a5a9-4cfb-9b81-b84c984747ac")
+		)
+		(instances
+			(project "at820_tiga"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -10585,7 +11055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "708d1035-0649-46dd-a990-648acb3526f9")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 129.54 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10675,7 +11145,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "U3")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -10693,7 +11163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73787bc6-863c-441e-8ae1-0ab8b163b955")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 88.9 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -10754,7 +11224,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -10772,7 +11242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74376768-19ac-4b25-9853-7ac9f027b92b")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 214.63 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10834,7 +11304,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10842,7 +11312,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 76.2 90)
+		(at 107.95 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10852,8 +11322,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74c8c4e6-0c98-4ac4-a45a-fb58feb2128d")
-		(property "Reference" "#PWR084"
-			(at 114.3 76.2 0)
+		(property "Reference" "#PWR017"
+			(at 114.3 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10864,7 +11334,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 76.1999 90)
+			(at 111.76 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10875,7 +11345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 76.2 0)
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10886,7 +11356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 76.2 0)
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10897,7 +11367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 76.2 0)
+			(at 107.95 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10913,7 +11383,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR084")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10931,7 +11401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75e49f4c-0a4c-4cf3-976d-88e5bd73e4bd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 144.78 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -10992,7 +11462,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -11092,7 +11562,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7639fbf0-8ea8-49f7-a20b-f782b9d765e7")
-		(property "Reference" "J6"
+		(property "Reference" "J7"
 			(at 230.505 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11102,7 +11572,7 @@
 				)
 			)
 		)
-		(property "Value" "power"
+		(property "Value" "Power"
 			(at 230.505 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11166,7 +11636,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J6")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11184,7 +11654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79ee2d3a-26b5-42e7-83ae-6788466807ff")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR043"
 			(at 234.95 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -11245,7 +11715,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR036")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -11263,7 +11733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a050aaa-a5bb-40bb-9cfe-5c6f3de21749")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR020"
 			(at 124.46 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +11793,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR041")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -11341,7 +11811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ac08d54-a5a0-4670-aded-4ae5c214f128")
-		(property "Reference" "SW3"
+		(property "Reference" "SW2"
 			(at 214.63 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11351,7 +11821,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset Button"
+		(property "Value" "Reset"
 			(at 214.63 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11403,7 +11873,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "SW3")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -11421,7 +11891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83915fe4-a7b7-40c6-9454-1907a44acdec")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR01"
 			(at 13.97 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11481,7 +11951,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -11499,7 +11969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e39dc80-f7c6-4ef6-84aa-4883b58659cd")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 198.755 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11509,7 +11979,7 @@
 				)
 			)
 		)
-		(property "Value" "download"
+		(property "Value" "Download"
 			(at 198.755 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11567,7 +12037,88 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J2")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 107.95 21.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8eb275a3-895a-4e31-92ba-2f54d93e85e0")
+		(property "Reference" "R5"
+			(at 106.426 18.0339 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K"
+			(at 106.426 15.748 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.696 22.606 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 107.95 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c815473e-6635-471c-928d-5bf43503fac1")
+		)
+		(pin "1"
+			(uuid "9c395373-eec6-4175-92db-cf0079cc6ea6")
+		)
+		(instances
+			(project "at820_tiga"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11585,7 +12136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92ff3a9f-51a1-4305-a514-82f94e452faf")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 262.255 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11653,7 +12204,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -11671,7 +12222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "933c78e9-c7f5-4bc3-8b57-0bc492261f5b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR013"
 			(at 78.74 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -11732,7 +12283,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11750,7 +12301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94dffefa-a463-4e23-826a-6d8dcfd2ba0f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 21.59 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -11810,7 +12361,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11828,7 +12379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b28a9ea-4508-4402-92fd-462b07f888e2")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR037"
 			(at 228.6 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11888,7 +12439,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR017")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -11906,7 +12457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c783c6c-f38f-4744-9d81-c15d0f28f3a8")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 78.74 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11967,7 +12518,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11984,7 +12535,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f9f1928-539d-4d25-8420-d1cdf18fb0bb")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 179.07 27.432 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12048,7 +12599,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -12066,7 +12617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0c76849-c61e-498e-bc4b-601cfd745d14")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 261.62 19.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12076,7 +12627,7 @@
 				)
 			)
 		)
-		(property "Value" "Wakeup Button"
+		(property "Value" "Wakeup"
 			(at 261.62 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,7 +12679,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -12224,7 +12775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a38dc221-8024-4171-b141-e447ef88c8df")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR032"
 			(at 203.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -12284,7 +12835,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR07")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -12302,7 +12853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4a91686-399e-4196-bfd0-a851faa185f8")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 205.74 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -12362,7 +12913,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12370,7 +12921,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 99.06 78.74 0)
+		(at 99.06 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12381,7 +12932,7 @@
 		(fields_autoplaced yes)
 		(uuid "a6b9d44c-3d10-48e7-9d48-2e9942e32e63")
 		(property "Reference" "SW1"
-			(at 99.06 71.12 0)
+			(at 99.06 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12391,7 +12942,7 @@
 			)
 		)
 		(property "Value" "OS102011MS2QN1"
-			(at 99.06 73.66 0)
+			(at 99.06 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12401,17 +12952,6 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q"
-			(at 99.06 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
 			(at 99.06 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -12422,8 +12962,19 @@
 				)
 			)
 		)
+		(property "Datasheet" ""
+			(at 99.06 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "Switch, single pole double throw"
-			(at 99.06 78.74 0)
+			(at 99.06 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12463,7 +13014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a87a557c-199c-440e-8d15-0d213ec2c7bc")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 116.84 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12642,7 +13193,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12660,7 +13211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf525f1-f909-4797-9a57-e95d4a6674de")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR06"
 			(at 78.74 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -12721,7 +13272,85 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR08")
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 90.17 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b83cf767-3875-43e4-bb0a-ba2c60fe7787")
+		(property "Reference" "#PWR016"
+			(at 90.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 90.17 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 90.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7043d248-eac2-4dbd-8563-6772ac26d75e")
+		)
+		(instances
+			(project "at820_tiga"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12817,7 +13446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9944ed5-31a0-4319-a165-3660ac41f941")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 88.9 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -12878,7 +13507,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR010")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12896,7 +13525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bada05cd-4b12-422b-8bda-738548b4e6ef")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 233.68 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -12957,7 +13586,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -12975,7 +13604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcd711d7-222f-429e-8171-4fc329369d54")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR041"
 			(at 245.11 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -13036,7 +13665,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR038")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -13054,7 +13683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1b9479b-7c08-4a36-bf3b-fc05984cd5ec")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 148.59 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -13114,7 +13743,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13131,7 +13760,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c31eef95-5917-459b-971d-76aee8474254")
-		(property "Reference" "C12"
+		(property "Reference" "C9"
 			(at 174.244 157.988 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13195,7 +13824,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -13213,7 +13842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d147bb79-03ef-44ac-831a-8544a522d701")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 21.59 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -13273,7 +13902,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13290,7 +13919,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d35c20cf-a183-475d-ac94-73c053933243")
-		(property "Reference" "C7"
+		(property "Reference" "C4"
 			(at 143.256 31.496 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13354,7 +13983,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C7")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -13372,7 +14001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3bb19b4-7441-4eb2-b522-2815c1fa20ba")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 88.9 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -13433,7 +14062,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13451,7 +14080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4a41f57-ea06-4c4d-950e-b85afde7b82f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR031"
 			(at 196.85 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -13511,7 +14140,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR029")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13529,7 +14158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d68e159e-972d-4af5-9162-41cf5c111881")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR038"
 			(at 228.6 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13589,7 +14218,98 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR018")
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 97.79 21.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8b8c1d8-36b3-4169-acbd-fdfb51fd8e7b")
+		(property "Reference" "D2"
+			(at 96.2025 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 96.2025 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 97.79 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 97.79 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a9ba832-cb91-477e-be2c-c0c8ebf5a01f")
+		)
+		(pin "2"
+			(uuid "a2e4ed56-5f0f-43d0-bed5-9da6dfa820e7")
+		)
+		(instances
+			(project "at820_tiga"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13606,7 +14326,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9c3ba4a-9c9e-4a28-a1a5-b45dcd32da04")
-		(property "Reference" "C9"
+		(property "Reference" "C6"
 			(at 174.244 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13670,7 +14390,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C9")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13688,7 +14408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da864528-94c9-4a0a-9549-796eab169af2")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR019"
 			(at 124.46 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -13748,7 +14468,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR040")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -13766,7 +14486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd497b0b-21ff-49bd-8751-4428b1abbc55")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 88.9 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -13827,7 +14547,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -13844,7 +14564,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de1d3954-d685-452a-b9d4-478f3116b93b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 148.59 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -13904,7 +14624,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -13912,7 +14632,7 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:TS5A23157DGS")
-		(at 88.9 55.88 0)
+		(at 88.9 63.5 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13922,8 +14642,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfe14742-a4de-4142-a619-ca8a2dcc65c3")
-		(property "Reference" "U3"
-			(at 88.9 46.99 0)
+		(property "Reference" "U1"
+			(at 88.9 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13933,7 +14653,7 @@
 			)
 		)
 		(property "Value" "TS5A23157DGS"
-			(at 88.9 49.53 0)
+			(at 88.9 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13943,7 +14663,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
-			(at 90.17 67.945 0)
+			(at 90.17 75.565 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13955,7 +14675,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ts5a23157.pdf"
-			(at 90.17 69.85 0)
+			(at 90.17 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13967,7 +14687,7 @@
 			)
 		)
 		(property "Description" "Dual 10 ohms SPDT Analog Switch, TSSOP-10 (Texas DGS0010A / VSSOP)"
-			(at 88.9 55.88 0)
+			(at 88.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14010,7 +14730,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "U3")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -14028,7 +14748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62df5dc-66af-4976-ad0d-155774b59b64")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 237.49 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14088,7 +14808,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14106,7 +14826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7465884-95ba-4751-9517-2dc56d53a899")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 144.78 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14167,7 +14887,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -14265,7 +14985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec92ac21-0267-41aa-9988-c3a80443b2ad")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR044"
 			(at 250.19 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -14325,7 +15045,88 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR06")
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 106.68 52.07 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed11f832-416f-4cc7-8642-4c381830e756")
+		(property "Reference" "R4"
+			(at 104.648 48.006 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2K"
+			(at 104.648 45.7201 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 106.426 53.086 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 106.68 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f8fe9594-bf3e-43db-bc65-7d229a629b05")
+		)
+		(pin "1"
+			(uuid "65a88453-4723-46d6-92d9-b2a675a2dc1a")
+		)
+		(instances
+			(project "at820_tiga"
+				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -14343,7 +15144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed2f9c62-adfa-4883-9834-a8e0dbc82c92")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 205.74 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -14403,7 +15204,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14421,7 +15222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee2320e1-1d83-4659-905d-1eecc4b5551a")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 171.0533 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14532,7 +15333,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -14549,7 +15350,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee70bf3c-aca7-4bc1-8952-40b9b4f5a87b")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 174.244 145.034 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14613,7 +15414,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -14631,7 +15432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2eb05e5-a6d9-48f7-9112-2023d0d558aa")
-		(property "Reference" "J1"
+		(property "Reference" "J2"
 			(at 198.755 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14699,7 +15500,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14804,7 +15605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ffcda409-a33f-40cd-9659-668bda8255f5")
-		(property "Reference" "C6"
+		(property "Reference" "C13"
 			(at 232.41 46.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14868,7 +15669,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
-					(reference "C6")
+					(reference "C13")
 					(unit 1)
 				)
 			)

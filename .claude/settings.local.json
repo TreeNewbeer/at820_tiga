@@ -9,7 +9,10 @@
       "Bash(pip3 install:*)",
       "Bash(py -m pip install PyMuPDF)",
       "Bash(python -m pip install PyMuPDF)",
-      "WebFetch(domain:www.wch.cn)"
+      "WebFetch(domain:www.wch.cn)",
+      "Bash(awk '/^\\\\t\\\\t\\\\\\(symbol/{inst=1} inst&&/\\\\\\(lib_id /{lib=$0} inst&&/\\\\\\(at /{at=$0} /\\\\\\(property \"Reference\" \"/{ref=$0} /\\\\\\(property \"Value\" \"/{val=$0; if\\(lib!=\"\"\\){printf \"%s | %s | %s | %s\\\\n\", lib, at, ref, val; lib=\"\"}}' power.kicad_sch)",
+      "Bash(awk '/^\\\\t\\\\t\\\\\\(symbol/{s=NR} /\\\\\\(lib_id \"Device:C\"/{c=1} /\\\\\\(at /{if\\(c\\){at=$0}} /\\\\\\(property \"Reference\" \"C/{if\\(c\\){ref=$0}} /\\\\\\(property \"Value\" \"/{if\\(c\\){print at\" | \"ref\" | \"$0; c=0}}' at820_tiga.kicad_sch)",
+      "Bash(awk -F'[\\(\\) ]+' '{print}')"
     ]
   }
 }

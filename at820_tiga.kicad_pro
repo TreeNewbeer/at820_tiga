@@ -684,13 +684,13 @@
         "uuid": "a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-13,R1-25,#FLG1-9,L1,D1-12,#PWR1-91,C1-36,FB1,H1-4,LS1,MK1-2,SW1-5,U1-5,Y1",
     "variants": []
   },
   "sheets": [
     [
       "a8c0f85c-55b6-4da9-ba8c-71a36ed08e24",
-      "at820_picokit"
+      "at820_tiga"
     ],
     [
       "bdb32295-0012-48b2-b3aa-c4e9dc671aef",
