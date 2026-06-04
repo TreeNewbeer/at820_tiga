@@ -75,26 +75,31 @@ Ground separation: `GND` (digital) and `GNDA` (analog audio area), connected via
 
 ## Auto-Download Circuit (CH343P)
 
-CH343P uses WCH's "no external component" (免外围电路) direct-connection scheme for MCU download, **no transistor cross-coupling needed**.
+CH343P drives the AT820 BOOT/RST lines through a **two-transistor cross-coupled (interlock) circuit** — the classic ESP/NodeMCU auto-program topology. The WCH "no external component" (免外围电路) direct-connection scheme is **not** used.
 
-**Connections:**
+**Connections (CH343P 343P-version pinout: Pin 12 = DTR, Pin 13 = RTS):**
 ```
-CH343P Pin 12 (DTR) ──→ AT_BOOT ──┬── R1 (10K/NC) pull-up to +3V3
-                                    ├── SW6 (Boot Button) to GND
-                                    ├── C36 (0.1uF) parallel to button
-                                    └── AT820 BOOT_SEL
+                              Q1 (SS8050, NPN)            Q2 (SS8050, NPN)
+CH343P Pin 12 (DTR) ──┬── R7 (10K) ──► Q1.B          ──► Q2.E ── CH343P Pin 12 (DTR)
+CH343P Pin 13 (RTS) ──┴── R8 (10K) ──► Q2.B          ──► Q1.E ── CH343P Pin 13 (RTS)
 
-CH343P Pin 13 (RTS) ──→ AT_RST  ──┬── R4 (2K) pull-up to +3V3
-                                    ├── SW3 (Reset Button) to GND
-                                    └── AT820 RESETN
+Q1.C ──► AT_RST  ──┬── R9 (2K)  pull-up to +3V3 ──┬── SW2 (Reset Button) to GND ── C12/C13
+                                                   └── AT820 RESETN
+Q2.C ──► AT_BOOT ──┬── R1 (10K) pull-up to +3V3 ──┬── SW3 (Boot Button)  to GND ── C1/C14
+                                                   └── AT820 BOOT_SEL
 ```
+- **Q1 (controls RST):** Base ← DTR (via R7), Emitter = RTS, Collector = AT_RST
+- **Q2 (controls BOOT):** Base ← RTS (via R8), Emitter = DTR, Collector = AT_BOOT
 
-**How it works (per CH343P spec section 5.5 "DTR dual-mode MCU download"):**
-- DTR defaults HIGH during idle/power-up → BOOT stays HIGH → MCU runs normally
-- Only download tool explicitly sets DTR LOW → BOOT LOW, then RTS pulses RST → enters bootloader
-- Unlike traditional UART chips, opening serial port does NOT auto-assert DTR
+**Logic (NPN conducts when V_base − V_emitter > ~0.7 V):**
+- DTR=H, RTS=H (idle/port-closed) → both off → BOOT & RST pulled high → MCU runs normally
+- DTR=H, RTS=L → Q1 on → RST=L (reset asserted); BOOT high
+- DTR=L, RTS=H → Q2 on → BOOT=L; RST high
+- RST-low and BOOT-low are mutually exclusive by design (avoids the deadlock that a direct connection has)
 
-**Open item:** R1 (10K) is marked NC. CH343P DTR is tri-state during power-up. If AT820 BOOT_SEL has no internal pull-up, R1 should be populated to prevent floating during power-up.
+**IMPORTANT — flashing-tool compatibility:** This circuit only works with an **esptool-style** tool that drives DTR/RTS in *opposite phase* (classic reset: pulse RTS→reset with BOOT high, then DTR→BOOT low as RST releases). A tool expecting the WCH direct scheme (hold DTR low for BOOT, pulse RTS for RST) will **not** reset, because RST only asserts when DTR=H. Confirm the AT820 download tool uses the esptool-style sequence.
+
+**Pull-ups:** R1 (10K) on BOOT and R9 (2K) on RST are now populated (R1 is no longer NC).
 
 ## Known Issues / Review Notes
 
@@ -104,7 +109,9 @@ CH343P Pin 13 (RTS) ──→ AT_RST  ──┬── R4 (2K) pull-up to +3V3
 4. **Button debounce**: Boot/Reset/Wakeup buttons have pull resistors but no debounce caps
 5. **No BOM or Gerber exported yet**
 6. **Connectors J4-J7**: Generic labels, function not annotated in schematic
-7. **R1 (10K/NC) on BOOT**: Verify AT820 has internal pull-up on BOOT_SEL; if not, populate R1
+7. **CH343P download tool sequence**: Cross-coupled transistor circuit requires an esptool-style (DTR/RTS opposite-phase) flashing tool; a WCH direct-scheme tool will not reset. Verify before relying on auto-download.
+8. **MIX2909 SD pin (U5.8 / AT_PWM0)**: No pull resistor — floats at power-up before firmware drives the GPIO; add a pull to the defined (shutdown) state to avoid undefined amp state / POP.
+9. **AT820 (U2) Value field blank**: Set symbol Value to `AT820` so it appears in the BOM.
 
 ## Datasheets
 

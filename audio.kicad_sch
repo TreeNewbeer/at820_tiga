@@ -3562,6 +3562,16 @@
 		)
 		(uuid "2231b61b-de6d-4652-97b3-8cc3513ddb8d")
 	)
+	(label "PA_OUTP"
+		(at 233.68 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "32e56902-b77d-48e3-81fa-0ac9534603cf")
+	)
 	(label "AT_RMIC_N"
 		(at 195.58 123.19 0)
 		(effects
@@ -3581,16 +3591,6 @@
 			(justify left bottom)
 		)
 		(uuid "3766f95e-b6f5-476c-ba05-7a4ffa81b76f")
-	)
-	(label "PA_OUTP"
-		(at 207.01 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "38fe5815-b0fc-40ce-a2bb-eb302aaa5832")
 	)
 	(label "AT_RMIC_N"
 		(at 184.15 45.72 0)
@@ -3612,16 +3612,6 @@
 		)
 		(uuid "475d085b-68db-4685-9e20-7323cf9017a4")
 	)
-	(label "AT_LOUT_P"
-		(at 233.68 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "49836198-4dad-4be1-87a7-e93451fd4f95")
-	)
 	(label "PA_EN"
 		(at 81.28 78.74 180)
 		(effects
@@ -3641,6 +3631,16 @@
 			(justify left bottom)
 		)
 		(uuid "57816210-dd4b-4528-b9f1-65ddce1321f6")
+	)
+	(label "AT_LOUT_P"
+		(at 207.01 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59f77b9f-6680-41f6-a8bb-e0556eed558f")
 	)
 	(label "PA_INP"
 		(at 80.01 35.56 0)
@@ -3881,7 +3881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02d3a929-7358-4e25-b581-a99813321d99")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR085"
 			(at 44.45 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3941,7 +3941,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR084")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4041,7 +4041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09146113-9527-4b66-a0f7-b317405f1f76")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR088"
 			(at 97.79 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -4101,7 +4101,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR087")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4201,7 +4201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e612093-fa64-4a09-8296-a30c82d2f3a5")
-		(property "Reference" "R25"
+		(property "Reference" "R27"
 			(at 127 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,7 +4265,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R25")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4362,7 +4362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "223069dc-1fcc-4445-aa8e-9d55a2360534")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 73.66 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4424,7 +4424,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -4528,7 +4528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24d19d09-e671-4974-a8f2-878a04702eac")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR089"
 			(at 124.46 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -4588,7 +4588,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR088")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -4688,7 +4688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b871ac7-b6cb-4362-b3d4-8703c325e5e4")
-		(property "Reference" "R19"
+		(property "Reference" "R21"
 			(at 46.99 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4752,7 +4752,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R19")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4770,7 +4770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ca7d80e-9ca3-4d4d-a0d2-9f69ed5f9416")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR086"
 			(at 44.45 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -4830,7 +4830,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR085")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4848,7 +4848,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503d6878-2397-4b27-9f70-5b96a5839aca")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 46.99 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4912,7 +4912,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5500c03a-2ac2-481f-b830-cd7236ab7458")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR083"
 			(at 34.29 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4990,7 +4990,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR082")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -5008,7 +5008,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d39b47b-4a93-4905-81af-b986fbcdb704")
-		(property "Reference" "R17"
+		(property "Reference" "R19"
 			(at 46.99 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5072,7 +5072,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R17")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5110,7 +5110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA-SMB_Universal_Handsoldering"
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 63.5 56.515 0)
 			(hide yes)
 			(show_name no)
@@ -5251,7 +5251,7 @@
 		(dnp no)
 		(uuid "76d03a5f-8f69-46ed-8d76-ac6f401f4912")
 		(property "Reference" "MK2"
-			(at 119.888 147.32 0)
+			(at 125.476 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5261,8 +5261,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Microphone"
-			(at 119.888 149.86 0)
+		(property "Value" "LMIC"
+			(at 125.476 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5272,7 +5272,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Sensor_Audio:POM-2244P-C3310-2-R"
 			(at 133.35 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -5332,7 +5332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86181596-e48c-4e18-96c2-7aa8b4f2d182")
-		(property "Reference" "R22"
+		(property "Reference" "R24"
 			(at 127 123.1899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5396,7 +5396,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -5575,7 +5575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d740d0b-92dd-4b0e-9f84-fed8bbf7538b")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR092"
 			(at 147.32 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -5635,7 +5635,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR091")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -5725,7 +5725,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 219.71 30.48 270)
+		(at 219.71 30.48 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5733,7 +5734,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b16c4e23-e191-4092-a281-f62273693162")
 		(property "Reference" "J12"
 			(at 219.71 25.4 90)
@@ -5980,7 +5980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c09e6dc0-8bc8-4ecd-9358-db136b4ab64c")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 124.46 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -6040,7 +6040,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR089")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6058,7 +6058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c138c858-2435-4d9e-b027-7242167e4c8c")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 127 162.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6122,7 +6122,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6301,7 +6301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c690ef28-55f0-4d31-b89d-b1e33affbd9a")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR087"
 			(at 76.2 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6361,7 +6361,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR086")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb32c6b4-e3f0-46af-9bba-dbcec93a3800")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR091"
 			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6439,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR090")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -6539,7 +6539,7 @@
 		(dnp no)
 		(uuid "d4dcaa56-6cb8-4dfa-8d6e-430744d6b359")
 		(property "Reference" "MK1"
-			(at 39.878 149.86 0)
+			(at 45.72 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6549,8 +6549,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Microphone"
-			(at 39.878 152.4 0)
+		(property "Value" "RMIC"
+			(at 45.72 152.654 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6560,7 +6560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Sensor_Audio:POM-2244P-C3310-2-R"
 			(at 53.34 153.67 90)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e09bab6f-b6d8-48c3-981c-6f6f273f69cd")
-		(property "Reference" "R21"
+		(property "Reference" "R23"
 			(at 73.66 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6682,7 +6682,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R21")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -6800,7 +6800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9dcaa6a-72ec-4902-b3f1-6a3b90defabf")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 127 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6864,7 +6864,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6882,7 +6882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbc1d3c8-c250-40eb-8cc8-7cdb43d32c8c")
-		(property "Reference" "R18"
+		(property "Reference" "R20"
 			(at 46.99 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +6946,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "R18")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -6964,7 +6964,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc026dec-417b-428a-a0ae-2d1998d190bb")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR084"
 			(at 34.29 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7024,7 +7024,7 @@
 		(instances
 			(project "at820_tiga"
 				(path "/a8c0f85c-55b6-4da9-ba8c-71a36ed08e24/3b744c5c-59b1-4c52-9315-8adf8de34fd5"
-					(reference "#PWR083")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)

@@ -618,6 +618,12 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -684,7 +690,7 @@
         "uuid": "a8c0f85c-55b6-4da9-ba8c-71a36ed08e24"
       }
     ],
-    "used_designators": "Q1-2,R26-27",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

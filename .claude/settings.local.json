@@ -12,7 +12,27 @@
       "WebFetch(domain:www.wch.cn)",
       "Bash(awk '/^\\\\t\\\\t\\\\\\(symbol/{inst=1} inst&&/\\\\\\(lib_id /{lib=$0} inst&&/\\\\\\(at /{at=$0} /\\\\\\(property \"Reference\" \"/{ref=$0} /\\\\\\(property \"Value\" \"/{val=$0; if\\(lib!=\"\"\\){printf \"%s | %s | %s | %s\\\\n\", lib, at, ref, val; lib=\"\"}}' power.kicad_sch)",
       "Bash(awk '/^\\\\t\\\\t\\\\\\(symbol/{s=NR} /\\\\\\(lib_id \"Device:C\"/{c=1} /\\\\\\(at /{if\\(c\\){at=$0}} /\\\\\\(property \"Reference\" \"C/{if\\(c\\){ref=$0}} /\\\\\\(property \"Value\" \"/{if\\(c\\){print at\" | \"ref\" | \"$0; c=0}}' at820_tiga.kicad_sch)",
-      "Bash(awk -F'[\\(\\) ]+' '{print}')"
+      "Bash(awk -F'[\\(\\) ]+' '{print}')",
+      "PowerShell($pl=@\\(\"pdftotext\",\"python\",\"py\",\"pdftoppm\",\"gswin64c\",\"magick\"\\); foreach\\($p in $pl\\){ $c=Get-Command $p -ErrorAction SilentlyContinue; if\\($c\\){ \"$p -> $\\($c.Source\\)\" } else { \"$p -> MISSING\" } })",
+      "PowerShell(python -c \"import pypdf; print\\('pypdf ok'\\)\" 2>$null; python -c \"import fitz; print\\('fitz ok'\\)\" 2>$null; python -c \"import pdfplumber; print\\('pdfplumber ok'\\)\" 2>$null; python -c \"import PyPDF2; print\\('PyPDF2 ok'\\)\" 2>$null; echo \"done\")",
+      "PowerShell(python -c \"import fitz; d=fitz.open\\(r'docs\\\\ss14.pdf'\\); print\\('PAGES',d.page_count\\); print\\(d[0].get_text\\(\\)[:3000]\\)\")",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python -c \"import fitz; d=fitz.open\\(r'docs\\\\ss14.pdf'\\); t='\\\\n'.join\\(d[i].get_text\\(\\) for i in range\\(d.page_count\\)\\); import re; print\\(t[:4000]\\)\")",
+      "PowerShell($c=Get-Command kicad-cli -ErrorAction SilentlyContinue; if\\($c\\){$c.Source}else{Get-ChildItem 'C:\\\\Program Files\\\\KiCad' -Recurse -Filter kicad-cli.exe -ErrorAction SilentlyContinue | Select-Object -First 1 -Expand FullName})",
+      "PowerShell(& 'C:\\\\Program Files\\\\KiCad\\\\10.0\\\\bin\\\\kicad-cli.exe' sch export netlist --format kicadsexpr -o netlist.net at820_tiga.kicad_sch 2>&1 | Select-Object -Last 5; \"exit=$LASTEXITCODE\"; if\\(Test-Path netlist.net\\){\\(Get-Item netlist.net\\).Length})",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _net.py ref U3)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _net.py ref Q1; echo \"=====\"; python _net.py ref Q2)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _net.py comps | Select-String -Pattern '^\\(Q1|Q2|R1 |R4 |R5 |R7|R8|R9|D12|U3|SW2|SW3\\) ')",
+      "Bash(awk '/symbol \"SS8050\"/{f=1} f&&/\\\\\\(pin /{print} f&&/\\\\\\(name \"/{print} /^\\\\t\\\\\\(symbol \"[^S]/{if\\(f\\)exit}' at820_tiga.kicad_sch)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python -c \"import fitz; d=fitz.open\\(r'docs\\\\C2846043_USB转换芯片_CH343P_规格书_WJ1666615.PDF'\\); print\\('PAGES',d.page_count\\); [print\\('##PAGE',i,'##\\\\n',d[i].get_text\\(\\)\\) for i in range\\(d.page_count\\) if any\\(k in d[i].get_text\\(\\) for k in ['DTR','RTS','下载','复位','BOOT','一键']\\)]\" 2>&1 | Select-Object -First 120)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python -c \"import fitz; d=fitz.open\\(r'docs\\\\C2846043_USB转换芯片_CH343P_规格书_WJ1666615.PDF'\\); print\\(d[4].get_text\\(\\)\\); print\\('=====PAGE5====='\\); print\\(d[5].get_text\\(\\)\\)\" 2>&1 | Select-Object -First 200)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python -c \"import fitz; d=fitz.open\\(r'docs\\\\C2846043_USB转换芯片_CH343P_规格书_WJ1666615.PDF'\\); print\\(d[2].get_text\\(\\)\\); print\\('=====PAGE4\\(idx3\\)====='\\); print\\(d[3].get_text\\(\\)\\)\" 2>&1 | Select-Object -First 220)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python -c \"import fitz; d=fitz.open\\(r'docs\\\\C2846043_USB转换芯片_CH343P_规格书_WJ1666615.PDF'\\); print\\(d[1].get_text\\(\\)\\)\" 2>&1 | Select-Object -First 200)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _net.py comps | Select-String -Pattern '^U[0-9]'; echo \"=== R1/R9 pullup rails ===\"; python _net.py ref R1; python _net.py ref R9)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _net.py ref D12; echo \"=== ERC ===\"; & 'C:\\\\Program Files\\\\KiCad\\\\10.0\\\\bin\\\\kicad-cli.exe' sch erc --severity-error --severity-warning -o erc.rpt at820_tiga.kicad_sch 2>&1 | Select-Object -Last 3; \"exit=$LASTEXITCODE\")",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _chk.py)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python _net.py ref U5; echo \"=== L1 ===\"; python _net.py ref L1; echo \"=== MIX2909 pinout ===\"; python -c \"import fitz; d=fitz.open\\(r'docs\\\\MIX2909.pdf'\\); [print\\('##P',i\\); print\\(d[i].get_text\\(\\)[:1500]\\) for i in range\\(min\\(2,d.page_count\\)\\)]\" 2>&1 | Select-Object -First 80)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python -c \"import fitz; d=fitz.open\\(r'docs/MIX2909.pdf'\\); print\\('PAGES',d.page_count\\); t=''.join\\(d[i].get_text\\(\\) for i in range\\(d.page_count\\)\\); import re; i=t.find\\('Pin'\\); print\\(t[:2500]\\)\" 2>&1 | Select-Object -First 90)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; echo \"=== Y1 crystal ===\"; python _net.py ref Y1; python _net.py comps | Select-String 'Y1|^C2[16] |^C19 |XTAL'; echo \"=== USB AT820 path ===\"; python _net.py net USB_D; echo \"=== switches U1 ===\"; python _net.py ref U1)"
     ]
   }
 }
